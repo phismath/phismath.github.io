@@ -1,0 +1,69 @@
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-bold_1-webfont.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: normal; 
+} 
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-light_1-webfont.woff') format('woff'); 
+  font-weight: 300; 
+  font-style: normal; 
+} 
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('../fonts/roboto-lightitalic_1-webfont.woff') format('woff'); 
+  font-weight: 300; 
+  font-style: italic; 
+}
+.main {
+	height: 100vh;
+	background-image: url('../image/intro.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.logo_block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.logo_block-logo {
+	width: 110px;
+	height: 184px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.logo_block-image {
+	width: 100%;
+	object-fit: cover;
+}
+.logo_block-link {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #1c5bc3;
+    letter-spacing: 2px;
+    font-size: 12px;
+    transition: .3s all;
+    text-align: left;
+    font-family: 'Roboto';
+    width: 170px;
+    border: 1px solid #1c5bc3;
+    padding: 20px;
+    border-radius: 4px;
+	background: url("../image/main_icon3.png") center right 25px no-repeat;
+}
+.logo_block-link:hover {
+	background-color: #1C5BC3;
+	color: #fff;
+	background-image: url('../image/main_icon4.png');
+}
